@@ -22,10 +22,10 @@ class Artist
     song.artist = self
   end
 
+  @@count = 0
+    
   def self.song_count
-    arr = @songs
-    count = arr.length
-    return count
+    return @@count
   end
 
 end
