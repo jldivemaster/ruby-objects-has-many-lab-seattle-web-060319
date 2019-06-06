@@ -24,7 +24,7 @@ class Artist
 
   def self.song_count
     arr = @songs
-    count = all.length
+    count = arr.length
     return count
   end
 
