@@ -13,8 +13,6 @@ class Song
       nil
     else
       self.artist.name
-    #if !self.attribute?(:artist)
-    #  nil
     end
   end
 
