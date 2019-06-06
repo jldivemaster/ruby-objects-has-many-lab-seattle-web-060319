@@ -9,10 +9,12 @@ class Song
   end
 
   def artist_name
-
-    self.artist.name
-    if !self.attribute?(:artist)
+    if self.respond_to?(:artist)
+      self.artist.name
+    else
       nil
+    #if !self.attribute?(:artist)
+    #  nil
     end
   end
 
