@@ -21,4 +21,12 @@ class Artist
     song.artist = self
   end
 
+  def self.song_count()
+    count = 0
+    if
+      count += 1
+    end
+    return count
+  end
+
 end
