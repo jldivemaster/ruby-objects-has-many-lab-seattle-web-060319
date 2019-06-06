@@ -22,10 +22,11 @@ class Artist
     song.artist = self
   end
 
-  count = 0
+  @@count = 0
 
   def self.song_count
-    return count
+    @@count += 1
+    return @@count
   end
 
 end
